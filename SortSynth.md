@@ -162,3 +162,13 @@ void mergeSort(int arr[], int left, int right) {
   merge(arr, left, mid ,right);
 }
 ~~~
+| 排序算法 | 平均时间复杂度 | 最好时间复杂度 | 最坏时间复杂度 |
+| :------: | :------------: | :------------: | :------------: |
+| 冒泡排序 |    O(n^2)     |     O(n)      |    O(n^2)     |
+| 选择排序 |    O(n^2)     |    O(n^2)     |    O(n^2)     |
+| 插入排序 |    O(n^2)     |     O(n)      |    O(n^2)     |
+| 希尔排序 |  O(nlogn)~O(n^2)|   O(nlogn)   |   O(nlogn)^2  |
+| 归并排序 |   O(nlogn)   |   O(nlogn)   |   O(nlogn)   |
+| 快速排序 |   O(nlogn)   |   O(nlogn)   |    O(n^2)     |
+| 堆排序|    O(logn)^3  n=heap size   |    n=heap size   |    n=heap size       |
+| 计数排序|    o (k + n ) k=max-min+1   |   o (k + n ) k=max-min+1    |  o (k + n ) k=max-min+1      |
